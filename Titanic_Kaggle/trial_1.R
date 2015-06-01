@@ -3,7 +3,7 @@
 # This is the first exercise to understand randomForest, guided by the blog of Trevor Stephens
 
 
-setwd("D:/Kaggle Titanic Programming in R/titanic-master")
+
 test <- read.csv("test.csv")
 train <- read.csv("train.csv")
 
