@@ -7,6 +7,7 @@
 # Initial Variables
 type_pass = c('rich','middle','poor')
 denomination = c(1000,500,200,100,50,20,10,5,1)
+distance = c(5,10,15,20,25,30,35,40)
 
 
 # Random generation of the passenger and their corresponding money
@@ -32,7 +33,7 @@ for (i in 1:100){
 
 
 
-
+#TO BE CONTINUED
 
 
 
@@ -40,14 +41,7 @@ for (i in 1:100){
 # on the Bill side the 20 has a higher prob. than 100 or 200
 # the number of passenger on a single stop also varies
 # the probability of decreases as the number of passenger on a single stop increases
-
 # take note also on the limit of the jeepney: around 20 
-distance = c(5,10,15,20,25,30,35,40)
-
-
-#list_pass = list(passid,kilometer,pay,1,5,10,20,50,100)
-
-
 # for (x in distance){
 #   cat('travelling ...',x,'Kilometers\n')
 #   pass = sample(type_pass,1,replace=TRUE)
