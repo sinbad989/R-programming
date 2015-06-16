@@ -11,6 +11,8 @@ distance = c(5,10,15,20,25,30,35,40)
 
 
 # Random generation of the passenger and their corresponding money
+class_pass=''
+money_pass=''
 for (i in 1:100){
   class_pass = c(class_pass,sample(type_pass,1))
   money_limit = ifelse(class_pass[i]=='rich',1000,ifelse(class_pass[i]=='poor',100,500))
