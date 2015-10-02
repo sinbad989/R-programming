@@ -104,7 +104,7 @@ wordcloud(names(freq),freq,min.freq = 5,rot.per=0.2,colors=dark2)
 # ==========================================================
 # Hierarchal Clustering
 # ==========================================================
-dtmss = removeSparseTerms(dtm,0.90)
+dtmss = removeSparseTerms(dtm,0.1)
 library(cluster)
 d = dist(t(dtmss),method='euclidian')
 fit = hclust(d=d,method='ward')
